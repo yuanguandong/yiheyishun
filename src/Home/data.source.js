@@ -97,18 +97,38 @@ export const Nav00DataSource = {
   },
   mobileMenu: { className: 'header0-mobile-menu' },
 };
-export const Banner00DataSource = {
-  wrapper: { className: 'banner0' },
-  textWrapper: { className: 'banner0-text-wrapper' },
-  title: {
-    className: 'banner0-title',
-    children: 'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
+export const Banner20DataSource = {
+  wrapper: { className: 'banner2' },
+  BannerAnim: {
+    children: [
+      {
+        name: 'elem0',
+        BannerElement: { className: 'banner-user-elem' },
+        page: { className: 'home-page banner2-page k4nqhk33f5h-editor_css' },
+        textWrapper: { className: 'banner2-text-wrapper' },
+        bg: { className: 'bg bg0 k4nqhlltl5l-editor_css' },
+        title: {
+          className: 'banner2-title k4nqgd7cil7-editor_css',
+          children: (
+            <>
+              <p>一和一顺</p>
+            </>
+          ),
+        },
+        content: {
+          className: 'banner2-content k4nqnk10lv-editor_css',
+          children: (
+            <>
+              <p>
+                /五维拨弦者/福州一和一顺商业管理有限公司专注于智慧楼宇经济与区域文化的结合应用，提供用户专业的线上线下商办空间——专项报告、特约选址、融资租赁、管理运营服务。一和一顺秉持：和气生财、笑口常开、细水长流、风调雨顺的理念服务社会。极简是我们最高的追求，我们愿意相信空间的魅力在于舒适，在于它敢于直面自己幼小的灵魂就是脚下这片土地的韵味，楼宇是鲜活的，它同样要感恩脚下的土地。不要假装努力，结果不会陪你演戏。安排~
+              </p>
+            </>
+          ),
+        },
+        button: { className: 'banner2-button', children: 'Learn More' },
+      },
+    ],
   },
-  content: {
-    className: 'banner0-content',
-    children: '一个高效的页面动画解决方案',
-  },
-  button: { className: 'banner0-button', children: 'Learn More' },
 };
 export const Content00DataSource = {
   wrapper: { className: 'home-page-wrapper content0-wrapper' },
@@ -207,11 +227,26 @@ export const Content10DataSource = {
     children: 'https://zos.alipayobjects.com/rmsportal/nLzbeGQLPyBJoli.png',
   },
   textWrapper: { className: 'content1-text', md: 14, xs: 24 },
-  title: { className: 'content1-title', children: '企业资源管理' },
+  title: {
+    className: 'content1-title k4nquxsi78e-editor_css',
+    children: (
+      <>
+        <p>企业简介</p>
+      </>
+    ),
+  },
   content: {
-    className: 'content1-content',
-    children:
-      '云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。',
+    className: 'content1-content k4nquk3pbn9-editor_css',
+    children: (
+      <>
+        <p>
+          <span>
+            福州一和一顺商业管理有限公司专注于智慧楼宇经济与区域产业文化的结合应用，并代理国内领先的SaaS模式楼宇资产管理系统技术，运用互联网将资产集合管理、楼宇管理、房源管理、招商管理、租客管理、租赁合同、物业管理、收付款管理、资产评估、成本管理、权限功能、工作流等十二大模块通过大数据网络云端技术全方位为客户随时随地通过手机线上清晰明确的查询资产及经营情况。公司拥有强大的执行团队和运营团队，能够为客户提供专业的市场分析报告、专项报告、特约选址、融资租赁、管理运营服务，为客户提供一站式的解决方案。目前公司已于福建省财富百联投资有限公司、福建省众道投资发展有限公司、福建省轻安工程建设有限公司等均有战略合作。
+          </span>
+          <br />
+        </p>
+      </>
+    ),
   },
 };
 export const Content30DataSource = {
@@ -223,13 +258,24 @@ export const Content30DataSource = {
     children: [
       {
         name: 'title',
-        children: '蚂蚁金融云提供专业的服务',
+        children: (
+          <>
+            <p>高筑墙 广积粮 缓称王</p>
+          </>
+        ),
         className: 'title-h1',
       },
       {
         name: 'content',
         className: 'title-content',
-        children: '基于阿里云强大的基础资源',
+        children: (
+          <>
+            <p>
+              我们愿意接触的人 深入聊的人
+              一定需要具备四点关键因素中的一点或者几点
+            </p>
+          </>
+        ),
       },
     ],
   },
@@ -248,11 +294,21 @@ export const Content30DataSource = {
               'https://zos.alipayobjects.com/rmsportal/ScHBSdwpTkAHZkJ.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '企业资源管理' },
+          title: {
+            className: 'content3-title',
+            children: (
+              <>
+                <p>一</p>
+              </>
+            ),
+          },
           content: {
             className: 'content3-content',
-            children:
-              '云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。',
+            children: (
+              <>
+                <p>1.控制的了楼盘或者房东或者房东资源</p>
+              </>
+            ),
           },
         },
       },
@@ -268,11 +324,21 @@ export const Content30DataSource = {
               'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '云安全' },
+          title: {
+            className: 'content3-title',
+            children: (
+              <>
+                <p>二</p>
+              </>
+            ),
+          },
           content: {
             className: 'content3-content',
-            children:
-              '按金融企业安全要求打造的完整云上安全体系，全方位保障金融应用及数据安全。',
+            children: (
+              <>
+                <p>控制的了资金或者资金资源</p>
+              </>
+            ),
           },
         },
       },
@@ -288,11 +354,21 @@ export const Content30DataSource = {
               'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '云监控' },
+          title: {
+            className: 'content3-title',
+            children: (
+              <>
+                <p>三</p>
+              </>
+            ),
+          },
           content: {
             className: 'content3-content',
-            children:
-              '分布式云环境集中监控，统一资源及应用状态视图，智能分析及故障定位。',
+            children: (
+              <>
+                <p>控制的了项目所在地权利关系或者关系资源</p>
+              </>
+            ),
           },
         },
       },
@@ -308,17 +384,27 @@ export const Content30DataSource = {
               'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '移动' },
+          title: {
+            className: 'content3-title',
+            children: (
+              <>
+                <p>四</p>
+              </>
+            ),
+          },
           content: {
             className: 'content3-content',
-            children:
-              '一站式移动金融APP开发及全面监控；丰富可用组件，动态发布和故障热修复。',
+            children: (
+              <>
+                <p>控制的了变现团队或者自身变现能力强可以入伙的人</p>
+              </>
+            ),
           },
         },
       },
       {
         name: 'block4',
-        className: 'content3-block',
+        className: 'content3-block k4nqyorwyw-editor_css',
         md: 8,
         xs: 24,
         children: {
@@ -328,7 +414,10 @@ export const Content30DataSource = {
               'https://zos.alipayobjects.com/rmsportal/UsUmoBRyLvkIQeO.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '分布式中间件' },
+          title: {
+            className: 'content3-title k4nqyd6isur-editor_css',
+            children: '分布式中间件',
+          },
           content: {
             className: 'content3-content',
             children:
@@ -338,7 +427,7 @@ export const Content30DataSource = {
       },
       {
         name: 'block5',
-        className: 'content3-block',
+        className: 'content3-block k4nqyrczy4-editor_css',
         md: 8,
         xs: 24,
         children: {
@@ -366,10 +455,7 @@ export const Footer00DataSource = {
     className: 'copyright',
     children: (
       <>
-        <span>
-          ©2018 <a href="https://motion.ant.design">Ant Motion</a> All Rights
-          Reserved
-        </span>
+        <span>©2019 一和一顺&nbsp;All Rights Reserved</span>
       </>
     ),
   },

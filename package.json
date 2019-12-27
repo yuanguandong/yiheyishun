@@ -2,6 +2,7 @@
   "dependencies": {
     "antd": "^3.26.4",
     "enquire-js": "^0.2.1",
+    "rc-banner-anim": "^2.4.2",
     "rc-queue-anim": "^1.8.3",
     "rc-scroll-anim": "^2.7.4",
     "rc-tween-one": "^2.6.8",
